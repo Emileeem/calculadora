@@ -1,4 +1,4 @@
-from emyli import *
+import emyli, benhur
 
 conta = int(input('O que você deseja fazer?\n1-Soma\n2-Subtração\n3-Divisão\n4-Multiplicação\n: '))
 n1 = int(input('Digite o primeiro número: '))
@@ -11,10 +11,10 @@ while True:
     elif conta == 2:
         result = benhur.sub(n1,n2)
         break
-    elif conta == 3:
+    elif conta == 4:
         result = emyli.mult(n1,n2)
         break
-    elif conta == 4:
+    elif conta == 3:
         result = benhur.div(n1,n2)
         break
     else:
