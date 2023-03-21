@@ -1,6 +1,6 @@
 import emyli, benhur
 
-conta = int(input('O que você deseja fazer?\n1-Soma\n2-Subtração\n3-Divisão\n4-Multiplicação\n: '))
+conta = int(input('O que você deseja fazer?\n1-Soma\n2-Subtração\n3-Divisão\n4-Multiplicação\n5 - Potenciação: '))
 n1 = int(input('Digite o primeiro número: '))
 n2 = int(input('Digite o segundo número: '))
 
@@ -17,6 +17,8 @@ while True:
     elif conta == 3:
         result = benhur.div(n1,n2)
         break
+    elif conta == 5:
+        result == anabelly.div()
     else:
         print('Escolha uma operção válida')
 

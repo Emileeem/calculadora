@@ -1,2 +1,2 @@
-def potenciacao(v1,v2):
-    return (v1**v2)
+def potenciacao(n1,n2):
+    return (n1**n2)
